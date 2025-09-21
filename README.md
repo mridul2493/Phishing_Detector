@@ -25,7 +25,7 @@ This tool is designed to make email security accessible, alerting users about po
   - `langdetect`, `googletrans`
   - `base64`, `hashlib`, `re`, `os`, `time`
 
-## Setup Instructions
+## Setup Instructions (Remember Credentials.json and Tokens.json file have been in .gitignore, due to sensitive nature)
 - **Install the Chrome Extension**
   - Open Chrome and go to Manage Extensions (chrome://extensions/).
   - Enable Developer Mode (toggle in the top-right corner).
