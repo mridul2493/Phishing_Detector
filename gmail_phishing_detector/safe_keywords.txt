@@ -1,0 +1,19 @@
+Verification: "Account verification", "Email verification", "Two-factor authentication"
+
+Trusted Services: "Secure payment", "Your bank", "Official notification", "Verified by"
+
+Professional Language: "Dear [Your Name]", "Sincerely", "Best regards", "Respectfully"
+
+Company Branding: "Company name", "Your membership", "Your subscription"
+
+Contextual Requests: "Please let us know", "We appreciate your feedback", "In reference to our previous conversation"
+
+Common Business Terminology: "Invoice attached", "Meeting scheduled", "Budget proposal"
+
+Specific Contact Information: "You can reach us at", "Contact our support team", "Call us at [phone number]"
+
+Privacy Assurance: "We respect your privacy", "Your information is safe with us"
+
+No Urgency: "When you have time", "At your convenience", "No immediate action required"
+
+Valid Extensions: Recognized and legitimate email domains (e.g., company domain)

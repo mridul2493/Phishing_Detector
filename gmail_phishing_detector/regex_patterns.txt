@@ -1,0 +1,12 @@
+v[\\\/]erify.*account
+updat(e|ing).*billing
+pa[s5]{2}word.*expir
+secur.*alert
+confir[mn].*identity
+(bank|paypal|apple).*notif
+cl[i1]ck.*here
+re[s5]et.*pa[s5]{2}word
+unusual.*activ
+(paym[e3]nt).*declin
+(unauth|not auth).*access
+cred[i1]t.*card.*verif
