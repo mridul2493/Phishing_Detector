@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Phishing Detector Demo",
+  "version": "1.0",
+  "description": "Demo: Detect phishing emails in your Gmail.",
+  "permissions": [
+    "identity",
+    "storage"
+  ],
+  "oauth2": {
+    "client_id": "",
+    "scopes": [
+      "https://www.googleapis.com/auth/gmail.readonly"
+    ]
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
