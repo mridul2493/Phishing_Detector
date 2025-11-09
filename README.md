@@ -22,7 +22,7 @@ This tool is designed to make email security accessible, alerting users about po
 - **Libraries & Packages**:
   - `flask`, `flask_cors`
   - `requests`, `google-api-python-client`, `google-auth`, `google-auth-oauthlib`
-  - `langdetect`, `googletrans`
+  - `langdetect`, `googletrans` , `deep-translator` , `chardet`
   - `base64`, `hashlib`, `re`, `os`, `time`
 
 ## Setup Instructions (Remember Credentials.json and Tokens.json file have been in .gitignore, due to sensitive nature)
@@ -46,12 +46,13 @@ This tool is designed to make email security accessible, alerting users about po
   - Select Application Type as Chrome Extension.
   - Copy your Extension ID from Chrome (chrome://extensions/) and paste it into the OAuth client creation form.
   - After creation, note down the OAuth Client ID, project ID.
-  - Save it in the credentials.json file in your project directory:
+  - Save it in the credentials.json file in your gmail_phishing_detector folder inside your project directory:
   - **{"client_id": "YOUR_OAUTH_CLIENT_ID_HERE" , project_id: "YOUR_PROJECT_ID_HERE"}**
 
 - **Start the Backend Service**
   - Open a terminal in your code editor and navigate to the gmail_phishing_detector folder:
   - cd gmail_phishing_detector
+  - create a virtual environment in powershell : python -m venv venv
   - Activate the virtual environment (Windows example):
   - **.\venv\Scripts\Activate**
   - Run the Flask backend:
